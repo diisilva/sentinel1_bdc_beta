@@ -29,17 +29,18 @@ Sentinel 1  processing library (beta version).
 # 5. Alternative usage
 ## 5.1 You can use the library in a docker environment. 
  ``` Step 1: 
-        docker pull marujore/sentinel-toolboxes:1.0.0
+        > docker pull marujore/sentinel-toolboxes:1.0.0
     
     Step 2:
-        sudo docker run --restart=always -d -it -v [YOUR_PATH]:/work --name test marujore/sentinel-toolboxes:1.0.0
+        > sudo docker run --restart=always -d -it -v [YOUR_PATH]:/work --name test marujore/sentinel-toolboxes:1.0.0
 
     Step 3: 
-        sudo docker exec -it teste bash
+        > sudo docker exec -it teste bash
     
     Step 4: Clone the resporitory sentinel1_bdc_beta package in /work and 
-        conda activate geospatial
+        > conda activate geospatial
     
     Step 5: 
-        Repeat items 2 and 3 of this documentation```
+        > Repeat items 2 and 3 of this documentation 
+    
 
